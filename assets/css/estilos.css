@@ -2,18 +2,31 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
 /* Hero Section */
 .navbar{
-  border-radius: 0 0 25px 25px;
+  border-radius: 0 0 10px 10px;
+  background-color: #518dc1;
+  border: 1px solid #fff;
 }
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/polvo-estelar.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.perfil img{
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
