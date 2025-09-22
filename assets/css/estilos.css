@@ -23,6 +23,18 @@ h1{
   justify-content: center;
 }
 
+.card{
+  border-radius: 30px;
+  border:3px solid #d5d5d5
+}
+.card .image-top{
+  border-radius: 30px 30px 10px 10px;
+}
+
+.trabajos-bg{
+  background-color: #396992;
+  border: 3px solid #373a3c;
+}
 .perfil img{
   border-radius: 50%;
   border: 3px solid #fff;
